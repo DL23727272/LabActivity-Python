@@ -14,10 +14,8 @@ MDBoxLayout:
         halign: "center"
 '''
 
-
 class Toolbar(MDApp):
     def build(self):
         return Builder.load_string(KV)
-
 
 Toolbar().run()
